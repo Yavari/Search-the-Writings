@@ -1,4 +1,6 @@
 SearchTheWritings::Application.routes.draw do
+  resources :volumes
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
