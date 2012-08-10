@@ -11,10 +11,12 @@
 /db/*.sqlite3
 
 # Ignore all logfiles and tempfiles.
+sunspot-solr.pid
 /log/*.log
 /log/*.log.lck
 /tmp
 *~
 
 # Ignore SolR stuff
-solr/**/*
+solr/data
+solr/pids
